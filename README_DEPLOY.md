@@ -104,3 +104,61 @@ Aggiorna in robots.txt:
 - aggiungi il dominio a Google Search Console
 - invia sitemap.xml
 - usa URL Inspection per richiedere indicizzazione della homepage
+
+
+## v11 media file names
+
+Sono stati collegati questi file:
+
+Project screenshots:
+- assets/img/projects/screen_seagarde.png
+- assets/img/projects/screen_init_minigioco.png
+
+3D images:
+- assets/img/3d/stampa1.heic
+- assets/img/3d/stampa2.heic
+- assets/img/3d/stampa3.heic
+- assets/img/3d/stampa4.heic
+
+Video:
+- assets/video/videostampa1.mov
+
+Nota compatibilità:
+- HEIC può non funzionare su tutti i browser, meglio convertire in JPG o WEBP.
+- MOV può non funzionare su tutti i browser, meglio convertire in MP4 H.264.
+
+
+## v12 Instagram + media web-friendly
+
+Aggiunto:
+- Instagram: https://www.instagram.com/nicoave97/
+
+Percorsi media finali consigliati:
+
+Project screenshots:
+- assets/img/projects/screen_seagarde.png
+- assets/img/projects/screen_init_minigioco.png
+
+3D images:
+- assets/img/3d/stampa1.jpg
+- assets/img/3d/stampa2.jpg
+- assets/img/3d/stampa3.jpg
+- assets/img/3d/stampa4.jpg
+
+Video:
+- assets/video/videostampa1.mp4
+
+Perché:
+- HEIC non è compatibile con tutti i browser.
+- MOV non è compatibile con tutti i browser.
+- JPG/WEBP e MP4 sono più sicuri per il web.
+
+
+## v13 media sizing fix
+
+Corretto CSS per:
+- screenshot progetti dentro box 16:9
+- foto 3D dentro riquadri quadrati
+- video dentro box 16:9
+- immagini contenute con object-fit: contain
+- card bloccate con overflow hidden

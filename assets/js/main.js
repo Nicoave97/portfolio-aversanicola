@@ -103,6 +103,7 @@ const commandResponses = {
     "Email: aversanicola@live.it",
     "GitHub: https://github.com/nicoave97",
     "LinkedIn: https://www.linkedin.com/in/nicola-aversa/",
+    "Instagram: https://www.instagram.com/nicoave97/",
     "Puoi aprire una richiesta rapida dalla sezione Contatti."
   ],
   game: [
